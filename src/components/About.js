@@ -1,3 +1,5 @@
+import { img } from "../../img";
+
 const About = () =>{
     return`
     <div>
@@ -10,7 +12,7 @@ const About = () =>{
 
 
         <div class="anh">
-            <img src="img/logo_duc.jpg" alt="">
+            <img src="${img.logo}" alt="">
         </div>
         <div class="bao">
             <div class="icon">
