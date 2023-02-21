@@ -9,7 +9,7 @@ const Header = () => {
     <!-- <img src="/img/banner.png" alt=""> -->
     <div class="heder">
     <div class="logo">
-        <img src="img/lo.png" alt="">
+        <img src="https://res.cloudinary.com/dy2ta56tt/image/upload/v1676951205/ecma-image/zia56mkg1ecytsptoe8o.png" alt="">
     </div>
     <div class="menu">
     
