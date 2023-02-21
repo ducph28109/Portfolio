@@ -32,11 +32,11 @@ const ProjectsPage = () => {
     
         <h1>Quản lý dự án</h1>
         <div class="them">
-        <button> <a href="./Project-add">Thêm dự án</a></buton>
+        <button> <a href="/Project-add">Thêm dự án</a></buton>
         </div>
         <table border="2" class="table table-bordered">
             <thead id="indam">
-                <tr>
+                <tr id="mau">
                     <th>Id</th>
                     <th>Tên dự án</th>
                     <th>Ảnh</th>
@@ -57,7 +57,7 @@ const ProjectsPage = () => {
                         <button id="xoa" data-id="${
                             project.id
                         }" class="btn btn-remove btn-danger">Xóa</button>
-                      <button id="sua">  <a href="/admin/projects/${project.id}/edit">Sửa</a> </button> 
+                       <a href="/admin/projects/${project.id}/edit"> <button id="sua">Sửa</button> </a> 
                     </td>
                 </tr>
             `

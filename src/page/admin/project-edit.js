@@ -43,19 +43,20 @@ const ProjectEdit = ({ id }) => {
                 },
                 body: JSON.stringify(formData),
             })
-                // .then(() => router.navigate("/project"))
+                .then(() => router.navigate("/project"))
                 .catch((error) => console.log(error));
         });
     });
     const uploadFiles = async (files) => {
         if (files) {
-          const CLOUD_NAME = "dychym88x";
-          const PRESET_NAME = "up-load-image";
-          const FOLDER_NAME = "Portfolio-Cv";
+            const CLOUD_NAME = "dy2ta56tt";
+            const PRESET_NAME = "ASM_ECMA";
+            const FOLDER_NAME = "ecma-image";
           const urls = [];
           const api = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
     
           const formData = new FormData();
+          
     
           formData.append("upload_preset", PRESET_NAME);
           formData.append("folder", FOLDER_NAME);
@@ -75,13 +76,23 @@ const ProjectEdit = ({ id }) => {
         }
       };
     return `<div>
+    <div class="tong_edit">
+    <div class="editfrom">
+    <h1>Product Edit</h1>
+ 
         <form id="form-edit">
-            <input type="text" id="name" class="border" value="${project.name}" />
-
-            <input type="text" id="url" class="border" value="${project.url}" />
-             <input type="file" multiple id="projects-images" class="border" />
-            <button class="btn btn-primary">Sửa</button>
+        <label id="cochu" for="">Name</label> <br>
+            <input type="text" id="name" class="border" value="${project.name}" /> <br> <br>
+            <label id="cochu" for="">Url</label> <br>
+            <input type="text" id="url" class="border" value="${project.url}" /><br><br>
+            <label id="cochu" for="">Ảnh</label> <br>
+             <input type="file" multiple id="projects-images" class="border" /><br><br>
+            <button id="suaedit" class="btn btn-primary">Save</button>
         </form>
+
+
+        </div>
+        </div>
     </div>`;
 };
 

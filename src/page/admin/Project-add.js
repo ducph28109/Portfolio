@@ -28,9 +28,9 @@ const ProjectAdd = () => {
 
   const uploadFiles = async (files) => {
     if (files) {
-      const CLOUD_NAME = "dychym88x";
-      const PRESET_NAME = "up-load-image";
-      const FOLDER_NAME = "Portfolio-Cv";
+      const CLOUD_NAME = "dy2ta56tt";
+      const PRESET_NAME = "ASM_ECMA";
+      const FOLDER_NAME = "ecma-image";
       const urls = [];
       const api = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
 

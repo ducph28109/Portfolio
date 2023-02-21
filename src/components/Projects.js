@@ -18,14 +18,14 @@ const Projects = () => {
     <div class="ckhoi">
     ${data.map(project=>
     `<div class="duan">
-    <a href="">
+   
     <img src="${project.gallery}" alt="">
     </a>
     <a href="">
     <h3 id="suaname">${project.name}</h3>
     </a>
 
-    <a href=""><button>View website</button></a> 
+    <a target="_blank" href="${project.url}"><button>View website</button></a> 
     </div>`
     ).join("")}
 
