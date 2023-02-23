@@ -1,115 +1,185 @@
 <div id="projects">
     <P id="pro">Projects</P>
-   
-    <div  class="ckhoi">
-    <div class="duan">
-    <a href="">
-    <img src="img/project2.jpg" alt="">
-    </a>
-    <a href="">
-    <h3>Electronice device</h3>
-    </a>
-    <a href="">
-    <p id="hdan">The world of electronics, civil electricity</p>
-    </a>
-    <a href=""><button>View website</button></a> 
+
+    <div class="ckhoi">
+        <div class="duan">
+            <a href="">
+                <img src="img/project2.jpg" alt="">
+            </a>
+            <a href="">
+                <h3>Electronice device</h3>
+            </a>
+            <a href="">
+                <p id="hdan">The world of electronics, civil electricity</p>
+            </a>
+            <a href=""><button>View website</button></a>
+        </div>
+        <div class="duan">
+            <a href="">
+                <img src="img/project5.jpg" alt="">
+            </a>
+            <a href="">
+                <h3>Electronice device</h3>
+            </a>
+            <a href="">
+                <p id="hdan">The world of electronics, civil electricity</p>
+            </a>
+            <a href=""><button>View website</button></a>
+        </div>
+        <div class="duan">
+            <a href="">
+                <img src="img/project.png" alt="">
+            </a>
+            <a href="">
+                <h3>Electronice device</h3>
+            </a>
+            <a href="">
+                <p id="hdan">The world of electronics, civil electricity</p>
+            </a>
+            <a href=""><button>View website</button></a>
+        </div>
     </div>
-    <div class="duan">
-    <a href="">
-        <img src="img/project5.jpg" alt="">
-        </a>
-        <a href="">
-        <h3>Electronice device</h3>
-        </a>
-        <a href="">
-        <p id="hdan">The world of electronics, civil electricity</p>
-        </a>
-        <a href=""><button>View website</button></a> 
+
+
+
+
+
+
+    <form action="">
+        <div class="form-row">
+            <div class="form-group col-sm-6">
+                <input id="name" type="text" placeholder="Your Name">
+            </div>
+
+            <div class="form-group col-sm-6">
+                <input id="email" type="email" placeholder="Your Email">
+            </div>
+
+            <div class="form-group col-sm-6">
+                <input id="phone" type="number" placeholder="Your Phone">
+            </div>
+
+            <div class="form-group col-sm-6">
+                <input id="subject" type="text" placeholder="Subject">
+            </div>
+            <div class="form-group col-sm-12">
+                <textarea name="comment" id="comment" rows="6" class="form-control"
+                    placeholder="Write Something"></textarea>
+            </div>
+            <div class="form-group col-sm-12 mt-3">
+                <input type="submit" value="gửi" class="btn btn-outline-primary rounded">
+            </div>
+
+        </div>
+    </form>
+
+
+
+
+
+
+
+    <form action="">
+        <div class="form-row">
+            <div class="fromba">
+
+                <div class="frommot">
+                    <div class="form">
+                        <input id="name" type="text" required placeholder="Your Name">
+                    </div>
+
+                    <div class="form">
+                        <input id="email" type="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="fromhai">
+                    <div class="form">
+                        <input id="phone" type="number" placeholder="Your Phone">
+                    </div>
+
+                    <div class="form">
+                        <input id="subject" type="text" placeholder="Subject">
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <textarea name="comment" id="comment" rows="6" class="form-control"
+                    placeholder="Write Something"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="gửi" class="btn btn-outline-primary rounded">
+            </div>
+
+        </div>
+    </form>
+
+
+
+
+    <div class="project-detail">
+
+        <div class="pdtong">
+            <div class="pdtrai">
+                <img src="${data.gallery}" alt="">
+            </div>
+            <div class="pdphai">
+                <h1> ${data.name}</h1>
+                <h3>Link Url${data.url}</h3>
+            </div>
+        </div>
+
+
+        <div class="duoi">
+            <h3>Text</h3>
+            <p> ${data.text}</p>
+
+        </div>
+
     </div>
-    <div class="duan">
-    <a href="">
-        <img src="img/project.png" alt="">
-        </a>
-        <a href="">
-        <h3>Electronice device</h3>
-        </a>
-        <a href="">
-        <p id="hdan">The world of electronics, civil electricity</p>
-        </a>
-        <a href=""><button>View website</button></a> 
+
+
+
+
+    <div class="dashboard">
+        <div class="logo">
+            <a href="/project">
+                <img src="https://res.cloudinary.com/dy2ta56tt/image/upload/v1676951205/ecma-image/zia56mkg1ecytsptoe8o.png"
+                    alt="">
+            </a>
+        </div>
+        <div class="menudashboard">
+            <div class="amot">
+                <a href="">Dashboard</a>
+            </div>
+            <hr>
+            <div class="ahai">
+                <a href="">Products</a>
+            </div>
+            <hr>
+            <div class="aba">
+                <a href="">Add Products</a>
+            </div>
+            <hr>
+            <div class="abon">
+                <a href="">Edit Products</a>
+            </div>
+            <hr>
+            <div class="anam">
+                <a href="">Delete products</a>
+            </div>
+
+
+
+
+        </div>
+
     </div>
+
+
+
+
+
+
+
+
 </div>
-
-
-
-
-
-
-<form action="">
-    <div class="form-row">
-        <div class="form-group col-sm-6">
-            <input id="name" type="text"  placeholder="Your Name" >         
-        </div>
-
-        <div class="form-group col-sm-6">
-            <input id="email" type="email"  placeholder="Your Email">                 
-          </div>
-
-        <div class="form-group col-sm-6">
-            <input id="phone" type="number"  placeholder="Your Phone">                         
-        </div>
-
-        <div class="form-group col-sm-6">
-            <input id="subject" type="text"  placeholder="Subject">                            
-          </div>
-        <div class="form-group col-sm-12">
-            <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
-          </div>
-        <div class="form-group col-sm-12 mt-3">
-            <input type="submit" value="gửi" class="btn btn-outline-primary rounded">                  
-        </div>
-
-    </div>  
-</form>
-
-
-
-
-
-
-
-<form action="">
-    <div class="form-row">
-    <div class="fromba">
-
-    <div class="frommot">
-        <div class="form">
-            <input id="name" type="text" required  placeholder="Your Name" >         
-        </div>
-
-        <div class="form">
-            <input id="email" type="email"  placeholder="Your Email">                 
-          </div>
-          </div>
-          <div class="fromhai">
-          <div class="form">
-            <input id="phone" type="number"  placeholder="Your Phone">                         
-        </div>
-
-        <div class="form">
-            <input id="subject" type="text"  placeholder="Subject">                            
-          </div>
-          </div>
-          </div>
-          <div class="form">
-            <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
-          </div>
-        <div class="form-group">
-            <input type="submit" value="gửi" class="btn btn-outline-primary rounded">                  
-        </div>
-
-    </div>  
-</form>
-
-
-    </div>

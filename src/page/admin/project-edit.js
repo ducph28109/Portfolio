@@ -1,4 +1,5 @@
 import axios from "axios";
+import Dashboard from "../../components/Dashboard";
 import { router, useEffect, useState } from "../../lib";
 const ProjectEdit = ({ id }) => {
     const [project, setProject] = useState({});
@@ -11,6 +12,7 @@ const ProjectEdit = ({ id }) => {
     useEffect(() => {
         const form = document.querySelector("#form-edit");
         const name = document.querySelector("#name");
+        const textt = document.querySelector("#textt");
         const link = document.querySelector("#url");
       
         const image = document.querySelector("#projects-images");
@@ -31,7 +33,8 @@ const ProjectEdit = ({ id }) => {
             const formData = {
                 name: name.value,
                 gallery: urls,
-                url:link.value
+                url:link.value,
+                text: textt.value
 
             };
             console.log(urls)
@@ -76,12 +79,17 @@ const ProjectEdit = ({ id }) => {
       };
     return `<div>
     <div class="tong_edit">
+    ${Dashboard()}
     <div class="editfrom">
     <h1>Product Edit</h1>
  
         <form id="form-edit">
         <label id="cochu" for="">Name</label> <br>
             <input type="text" id="name" class="border" value="${project.name}" /> <br> <br>
+
+            <label id="cochu" for="">Name</label> <br>
+            <input type="text" id="textt" class="border" value="${project.text}" /> <br> <br>
+
             <label id="cochu" for="">Url</label> <br>
             <input type="text" id="url" class="border" value="${project.url}" /><br><br>
             <label id="cochu" for="">Ảnh</label> <br>

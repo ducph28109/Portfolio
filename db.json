@@ -1,44 +1,31 @@
 {
   "projects": [
     {
-      "name": "Website xe đạp",
+      "name": "Greenstore ",
       "gallery": [
         "https://res.cloudinary.com/dy2ta56tt/image/upload/v1676921452/ecma-image/kuzgijalx3ilifrbvtmi.jpg"
       ],
       "url": "https://ducbdph28109.000webhostapp.com/",
+      "text": "Xe đạp tập thể dục được coi là một trợ lý về sức khoẻ vì nó thực sự tiện nghi và hữu ích không chỉ cải thiện sức khoẻ toàn thân mà còn giúp giữ gìn vóc dáng, nâng cao thể lực. Có rất nhiều lợi ích của việc tập thể dục với xe đạp tập tại nhà mà bạn nên tìm hiểu để có thêm động lực tập luyện thể thao mỗi ngày. ",
       "id": 1
     },
     {
-      "name": "Website đồng hồ",
-      "url": "https://github.com/Linh-203/du_an_1-Nhom8-.git",
+      "name": "Hight Tech",
       "gallery": [
         "https://res.cloudinary.com/dy2ta56tt/image/upload/v1676921580/ecma-image/ieozxljlyhpepsr4t9wr.png"
       ],
+      "url": "https://duchtech.000webhostapp.com/",
+      "text": "Nhu cầu sở hữu đồng hồ rẻ, đẹp, chất lượng là điều mà khách hàng nào cũng mong muốn. Trong trường hợp không thể đến trực tiếp cửa hàng để lựa chọn sản phẩm, hình thức mua Online đã trở thành một phương án thay thế tuyệt vời. Tuy nhiên, không phải ai cũng có thể lựa chọn cho mình được những trang thương mại điện tử đáng tin cậy. ",
       "id": 2
     },
     {
-      "name": "Website điện thoại",
-      "url": "https://fptshop.com.vn/dien-thoai",
+      "name": "Xshop",
       "gallery": [
         "https://res.cloudinary.com/dy2ta56tt/image/upload/v1676947726/ecma-image/w2nk5aabsb2yazzxoxw6.jpg"
       ],
+      "url": "https://fptshop.com.vn/dien-thoai",
+      "text": "Điện Thoại là một trong những điều kiện cần có trong thời đại 4.0 để tạo lập thương hiệu Bán Phụ Kiện Điện Thoại, gia tăng lợi nhuận, tìm kiếm khách hàng Bán Phụ Kiện Điện Thoại mới, kết nối thị trường Bán Phụ Kiện Điện Thoại toàn cầu,…",
       "id": 3
-    },
-    {
-      "name": "website bán đồ dân dụng",
-      "url": "https://www.google.com.vn/search?tbm=isch&q=%E1%BA%A3nh#imgrc=ORTZVj6azeYSPM",
-      "gallery": [
-        "https://res.cloudinary.com/dy2ta56tt/image/upload/v1676949494/ecma-image/ggy4jxmo4no34krnrpai.jpg"
-      ],
-      "id": 4
-    },
-    {
-      "name": "vdsd",
-      "url": "https://www.google.com.vn/search?tbm=isch&q=%E1%BA%A3nh+n%E1%BB%81n+m%C3%A1y+t%C3%ADnh",
-      "gallery": [
-        "https://res.cloudinary.com/dy2ta56tt/image/upload/v1676951205/ecma-image/zia56mkg1ecytsptoe8o.png"
-      ],
-      "id": 5
     }
   ]
 }

@@ -1,10 +1,13 @@
+
 import { router, useEffect } from "../../lib";
 import axios from "axios";
+import Dashboard from "../../components/Dashboard";
 
 const ProjectAdd = () => {
   useEffect(() => {
     const form = document.querySelector("#form-add");
     const name = document.querySelector("#name");
+    const textt = document.querySelector("#textt");
     const image = document.querySelector("#projects-images");
     const url = document.querySelector("#project-url");
 
@@ -15,6 +18,7 @@ const ProjectAdd = () => {
         name: name.value,
         url: url.value,
         gallery: urls,
+        text:textt.value
       };
       fetch("http://localhost:3000/projects", {
         method: "POST",
@@ -54,13 +58,19 @@ const ProjectAdd = () => {
    
     }
   };
-  return `<div>
+  return `
+ <div>
   <div class="khung-add">
+  ${Dashboard()}
+ 
      <div class="add"> 
        <h1>Project-add</h1>
         <form id="form-add">
             <label for="">Tên dự án</label> <br>
             <input type="text" id="name" class="border" /><br><br>
+
+            <label for="">Mô tả</label> <br>
+            <input type="text" id="textt" class="border" /> <br><br>
            
             <label for="">url dự án</label> <br>
             <input type="url" id="project-url" class="border" /><br><br>

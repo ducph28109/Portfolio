@@ -24,8 +24,8 @@ const Projects = () => {
     <a href="">
     <h3 id="suaname">${project.name}</h3>
     </a>
-
-    <a target="_blank" href="${project.url}"><button>View website</button></a> 
+    <p id="text">${project.text}</p>
+    <a target="_blank" href="/project/${project.id}"><button>Project details</button></a> 
     </div>`
     ).join("")}
 
